@@ -1,0 +1,29 @@
+# Archivos de configuración con credenciales sensibles
+config.properties
+.env.remoto
+.env.local
+.pg-password
+.postgres/
+.tools/
+respaldos_privados/
+logs/
+.correo-reintentos.properties
+entrega/
+.compilacion-anterior/
+
+# Archivos de IDE
+.idea/
+*.iml
+.vscode/
+
+# Archivos de compilación
+target/
+*.class
+
+# Archivos temporales
+*.tmp
+__pycache__/
+*.pyc
+*.log
+
+

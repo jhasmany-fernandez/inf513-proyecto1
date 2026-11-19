@@ -1,0 +1,20 @@
+# Plantilla: sustituir /RUTA/ABSOLUTA por la carpeta real antes de instalar.
+# Unidad de usuario; no requiere ejecutar Java como root.
+[Unit]
+Description=Receptor de correo Academia 22SC
+After=network.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+WorkingDirectory=/RUTA/ABSOLUTA/correo_academia
+ExecStart=/bin/bash /RUTA/ABSOLUTA/correo_academia/despliegue/receptor-servidor.sh --listen
+Restart=on-failure
+RestartSec=30
+UMask=0077
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
