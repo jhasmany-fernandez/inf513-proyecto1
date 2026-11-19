@@ -30,3 +30,10 @@ cuenta del grupo con la credencial disponible. Sin shell autorizado no se puede
 confirmar Java ni instalar la tarea del receptor. No se subieron secretos por FTP
 ni se alteraron las prácticas o aplicaciones existentes. Guía y plantillas:
 despliegue/ y docs/despliegue-servidor.md.
+
+## Publicación personal
+
+Código publicado el 19/11/2026 en
+https://github.com/jhasmany-fernandez/inf513-proyecto1 (público, rama main).
+Se utilizó copia limpia del paquete de 41 archivos, sin configuración privada,
+respaldos, registros ni historial antiguo. El checkout original conserva su remoto.
